@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidproject1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:7:5-26:19
+14        android:allowBackup="true"
+14-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.androidproject1.PopularNewsActivity" >
+23-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:15:9-21:20
+23-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:15:19-54
+24            <intent-filter>
+24-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:17:17-69
+25-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:19:17-77
+27-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.androidproject1.NewsDetailedActivity" />
+30-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:22:9-23:52
+30-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:23:13-49
+31        <activity android:name="com.example.androidproject1.SingleNewsActivity" />
+31-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:24:9-56
+31-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:24:19-53
+32        <activity android:name="com.example.androidproject1.FavouritesActivity" />
+32-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:25:9-56
+32-->/Users/anastasia/Documents/1. Политех/ООП/AndroidProject1/app/src/main/AndroidManifest.xml:25:19-53
+33
+34        <service
+34-->[androidx.room:room-runtime:2.2.5] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/ff92c23acb3ff63da9830c47d6fbd82e/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+35            android:name="androidx.room.MultiInstanceInvalidationService"
+35-->[androidx.room:room-runtime:2.2.5] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/ff92c23acb3ff63da9830c47d6fbd82e/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+36            android:directBootAware="true"
+36-->[androidx.room:room-runtime:2.2.5] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/ff92c23acb3ff63da9830c47d6fbd82e/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->[androidx.room:room-runtime:2.2.5] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/ff92c23acb3ff63da9830c47d6fbd82e/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/e953a6c6aa473293c3a94459e549ecaa/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/e953a6c6aa473293c3a94459e549ecaa/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+41            android:authorities="com.example.androidproject1.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/e953a6c6aa473293c3a94459e549ecaa/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/e953a6c6aa473293c3a94459e549ecaa/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/anastasia/.gradle/caches/transforms-2/files-2.1/e953a6c6aa473293c3a94459e549ecaa/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>
